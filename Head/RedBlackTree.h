@@ -1,18 +1,15 @@
+#include <iostream>
 #define BLACK 1
 #define RED 0
-#include <iostream>
-
 using namespace std;
-
 class bst {
 private:
-
     struct Node {
         int value;
         bool color;
         Node *leftTree, *rightTree, *parent;
 
-        Node() : value(0), color(RED), leftTree(NULL), rightTree(NULL), parent(NULL) { }        
+        Node() : value(0), color(RED), leftTree(NULL), rightTree(NULL), parent(NULL) { }    
 
         Node* grandparent() {
             if(parent == NULL){
