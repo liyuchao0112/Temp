@@ -1,7 +1,5 @@
 # ninja log v5
-0	371	6627165819706180	CMakeFiles/Temp.dir/Source/main.cpp.obj	1da63dbbb6ce610a
-373	506	6627165820858633	Temp.exe	b5e66d5e252bb920
-1	452	6627169078080040	CMakeFiles/Temp.dir/Source/main.cpp.obj	1da63dbbb6ce610a
-452	599	6627169079279744	Temp.exe	b5e66d5e252bb920
 1	450	6627171172612346	CMakeFiles/Temp.dir/Source/main.cpp.obj	1da63dbbb6ce610a
 450	596	6627171173830303	Temp.exe	b5e66d5e252bb920
+0	419	6627188965148653	CMakeFiles/Temp.dir/Source/main.cpp.obj	1da63dbbb6ce610a
+419	565	6627188966364570	Temp.exe	b5e66d5e252bb920
