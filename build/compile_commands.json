@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/Liyuchao/Programs/Cpp/Temp/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\Temp.dir\\Source\\main.cpp.obj -c E:\\Liyuchao\\Programs\\Cpp\\Temp\\Source\\main.cpp",
+  "file": "E:\\Liyuchao\\Programs\\Cpp\\Temp\\Source\\main.cpp"
+}
+]
