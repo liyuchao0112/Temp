@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Temp
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = Release
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,9 +49,9 @@ cmake_ninja_workdir = E$:/Liyuchao/Programs/Cpp/Temp/build/
 
 build cmake_object_order_depends_target_Temp: phony || CMakeFiles/Temp.dir
 
-build CMakeFiles/Temp.dir/Source/main.cpp.obj: CXX_COMPILER__Temp_Debug E$:/Liyuchao/Programs/Cpp/Temp/Source/main.cpp || cmake_object_order_depends_target_Temp
+build CMakeFiles/Temp.dir/Source/main.cpp.obj: CXX_COMPILER__Temp_Release E$:/Liyuchao/Programs/Cpp/Temp/Source/main.cpp || cmake_object_order_depends_target_Temp
   DEP_FILE = CMakeFiles\Temp.dir\Source\main.cpp.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt
   OBJECT_DIR = CMakeFiles\Temp.dir
   OBJECT_FILE_DIR = CMakeFiles\Temp.dir\Source
   TARGET_COMPILE_PDB = CMakeFiles\Temp.dir\
@@ -65,8 +65,8 @@ build CMakeFiles/Temp.dir/Source/main.cpp.obj: CXX_COMPILER__Temp_Debug E$:/Liyu
 #############################################
 # Link the executable Temp.exe
 
-build Temp.exe: CXX_EXECUTABLE_LINKER__Temp_Debug CMakeFiles/Temp.dir/Source/main.cpp.obj
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+build Temp.exe: CXX_EXECUTABLE_LINKER__Temp_Release CMakeFiles/Temp.dir/Source/main.cpp.obj
+  FLAGS = -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt
   LINK_FLAGS = -Xlinker /subsystem:console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\Temp.dir
