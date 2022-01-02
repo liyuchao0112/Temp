@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../Head/RedBlackTree.h"
+#include "../Headers/RedBlackTree.h"
 using namespace std;
 int main() {
 	int n;

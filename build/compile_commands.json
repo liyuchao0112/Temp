@@ -1,7 +1,7 @@
 [
 {
   "directory": "E:/Liyuchao/Programs/Cpp/Temp/build",
-  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -o CMakeFiles\\Temp.dir\\Source\\main.cpp.obj -c E:\\Liyuchao\\Programs\\Cpp\\Temp\\Source\\main.cpp",
-  "file": "E:\\Liyuchao\\Programs\\Cpp\\Temp\\Source\\main.cpp"
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -o CMakeFiles\\Temp.dir\\Sources\\main.cpp.obj -c E:\\Liyuchao\\Programs\\Cpp\\Temp\\Sources\\main.cpp",
+  "file": "E:\\Liyuchao\\Programs\\Cpp\\Temp\\Sources\\main.cpp"
 }
 ]
